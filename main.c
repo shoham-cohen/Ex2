@@ -9,12 +9,6 @@ int main(){
    while(decision != 'D'){
      if(decision == 'A'){
        fillMat(mat);
-       for (row=0; row<10; row++){
-         for(column=0; column<10; column++){
-           printf("%d ", mat[row][column]);
-           }
-           printf("\n");
-       }
        scanf(" %c", &decision);
      }
      if(decision == 'B'){
